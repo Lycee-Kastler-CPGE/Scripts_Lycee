@@ -10,7 +10,6 @@ jupyterlab==3.3.4
 sympy
 jax[cpu]
 jinja2>=3
-tkinter
 pyxel
 requests
 graphviz
