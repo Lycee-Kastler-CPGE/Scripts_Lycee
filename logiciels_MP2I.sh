@@ -66,7 +66,7 @@ snap install sqlitebrowser
 ## Partie III - Modules Python
 echo "Installation des modules python"
 echo "Attention pour que cela marche packages_python.txt doit être dans le répertoire depuis lequel on a lancé ce script !"
-python3 -m pip install -r packages_python.txt
+python3 -m pip install -r packages_python.txt --break-system-packages
 pip freeze -r packages_python.txt > /etc/skel/packages_python.txt
 
 echo "Installation terminée"
